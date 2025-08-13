@@ -6,7 +6,7 @@ metadata:
   name: solar-system-service
 spec:
   ports:
-  - port: 80 #change to 80
+  - port: 80 #change to 8080
     protocol: TCP
     targetPort: 80 #change to 80
   selector:
